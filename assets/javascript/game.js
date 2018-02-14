@@ -54,6 +54,10 @@ document.onkeyup = function (event) {
         badGuess = [];
         var html = "";
         document.querySelector("#results").innerHTML = html;
+        document.querySelector("#score").innerHTML = "Guessed So Far: ";
+        var newLivesDiv = document.createElement("div"); 
+        newLivesDiv.innerHTML = "Lives: 10";
+        score.appendChild(newLivesDiv); // adds it on the page 
 
 
 
