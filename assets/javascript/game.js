@@ -157,35 +157,35 @@ function winningImage() {
     switch (pick) {
 
         case 0:
-            var html = "<img src='http://i.cdn.turner.com/drp/nba/rockets/sites/default/files/harden.jpg?itok=Sbvkz_3m' alt='you won'  width='400px' >";
+            var html = "<img src='http://i.cdn.turner.com/drp/nba/rockets/sites/default/files/harden.jpg?itok=Sbvkz_3m' alt='you won'  width='300px' >";
             document.querySelector("#winningImage").innerHTML = html;
             break;
         case 1:
-            var html = "<img src='https://old.officialpsds.com/thumbs/Trevor-Ariza-Rockets-psd32004.png' alt='you won' width='400px' >";
+            var html = "<img src='https://old.officialpsds.com/thumbs/Trevor-Ariza-Rockets-psd32004.png' alt='you won' width='300px' >";
             document.querySelector("#winningImage").innerHTML = html;
             break;
         case 2:
-            var html = "<img src='https://cdn.vox-cdn.com/thumbor/NNBbSUX39NkPIxShusn-jV3jXMI=/0x0:4275x2850/1200x800/filters:focal(1796x1083:2480x1767)/cdn.vox-cdn.com/uploads/chorus_image/image/57793415/875536768.jpg.0.jpg' alt='you won'  width='400px'>";
+            var html = "<img src='https://cdn.vox-cdn.com/thumbor/NNBbSUX39NkPIxShusn-jV3jXMI=/0x0:4275x2850/1200x800/filters:focal(1796x1083:2480x1767)/cdn.vox-cdn.com/uploads/chorus_image/image/57793415/875536768.jpg.0.jpg' alt='you won'  width='300px'>";
             document.querySelector("#winningImage").innerHTML = html;
             break;
 
         case 3:
-            var html = "<img src='http://www.opencourt-basketball.com/wp-content/uploads/2016/03/hakeem-olajuwon.jpg' alt='you won' width='400px' >";
+            var html = "<img src='http://www.opencourt-basketball.com/wp-content/uploads/2016/03/hakeem-olajuwon.jpg' alt='you won' width='300px' >";
             document.querySelector("#winningImage").innerHTML = html;
             break;
 
         case 4:
-            var html = "<img src='http://i.cdn.turner.com/nba/nba/rockets/photos/content12_ralphhall.jpg' alt='you won' width='400px' >";
+            var html = "<img src='http://i.cdn.turner.com/nba/nba/rockets/photos/content12_ralphhall.jpg' alt='you won' width='300px' >";
             document.querySelector("#winningImage").innerHTML = html;
             break;
 
         case 5:
-            var html = "<img src='https://cdn3.i-scmp.com/sites/default/files/styles/980x551/public/images/methode/2017/07/22/0741bffa-6e8c-11e7-9575-882aa2208a4d_1280x720_111847.JPG?itok=tymjvIoy' alt='you won'  width='400px'>";
+            var html = "<img src='https://cdn3.i-scmp.com/sites/default/files/styles/980x551/public/images/methode/2017/07/22/0741bffa-6e8c-11e7-9575-882aa2208a4d_1280x720_111847.JPG?itok=tymjvIoy' alt='you won'  width='300px'>";
             document.querySelector("#winningImage").innerHTML = html;
             break;
 
         case 6:
-            var html = "<img src='https://s3media.247sports.com/Uploads/Assets/693/540/6_3540693.jpg' alt='you won' width='400px' >";
+            var html = "<img src='https://s3media.247sports.com/Uploads/Assets/693/540/6_3540693.jpg' alt='you won' width='300px' >";
             document.querySelector("#winningImage").innerHTML = html;
             break;
 
