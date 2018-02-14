@@ -1,16 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
     <title>Document</title>
 </head>
-<body>
-    <script src="assets/javascript/game.js">
 
-    </script>
-        
-    
+
+
+<body>
+
+    <!-- look into changiing background colors by users choice on menu -->
+
+    <div class="container ">
+        <!-- 
+        <h1> Houston Rockets Themed Hangman</h1>
+        <p>please press 1 to start a new game, please guess any alphabet to start </p>
+        <input onkeyup="myFunction(event)"> </input>
+        <p id="game"> </p>
+
+    </div> -->
+
+       
+            <div > <h1> Houston Rockets Themed Hangman</h1>
+                <p>please press spacebar to start a new game, please guess any alphabet to start </p>
+                <!-- <input onkeyup="myFunction(event)"> </input> one way to do it -->
+                <div id="game"> </div>
+                <div id="score"> Guessed So Far: </div>
+                <div id="results"> </div>
+                <div id= "directions"> Directions:</div>
+            
+
+
+        <script src="assets/javascript/game.js">
+
+        </script>
+
+
 </body>
+
 </html>
