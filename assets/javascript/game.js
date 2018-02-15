@@ -123,7 +123,7 @@ document.onkeyup = function (event) {
 
 
 function initizeGame() {
-    pick = Math.floor(Math.random() * words.length)
+    pick = Math.floor(Math.random() * words.length);
     compChoice = words[pick];
     compChoice2 = compChoice;
     guessedSoFar = [];
