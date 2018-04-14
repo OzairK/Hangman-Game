@@ -20,9 +20,8 @@ https://ozairk.github.io/Rockets-Hangman/
 * CSS
 
 
-## Authors
+## Author
 
-* **Ozair KHan** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
+* **Ozair Khan** 
 
 
