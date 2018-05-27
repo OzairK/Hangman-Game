@@ -34,7 +34,7 @@ document.onkeyup = function (event) {
                 for (var i = 0; i < 100; i++) {                                 // adding correct guess to game board
                     if (compChocieLowerCase.includes(userGuessLowerCase)) {
                         var pos = compChocieLowerCase.indexOf(userGuessLowerCase);
-                        guessedSoFar[pos] = userGuess;             // getting from original choice to disply capital letters
+                        guessedSoFar[pos] = compChoice.charAt(pos);             // getting from original choice to disply capital letters
                         document.querySelector("#game").innerHTML = guessedSoFar.join("");
                         compChocieLowerCase = compChocieLowerCase.replace(userGuessLowerCase, "_");       // corrupting compChoice so that it doesnt keep saying it include user guess
                     }
@@ -44,15 +44,16 @@ document.onkeyup = function (event) {
                 }
             }
 
-            else if{ (!/[^a-zA-Z]/.test(userGuess)) {                             // bad guess, add to wrong letter guess list, update losses
-                lives = lives - 1;
-                badGuess.push(userGuess + "  ");
-                document.querySelector("#score").innerHTML = "Guessed So Far: " + badGuess.join("");
-                var newLivesDiv = document.createElement("div");             // creating a new element to display lives within score div
-                newLivesDiv.innerHTML = "Lives: " + lives;
-                score.appendChild(newLivesDiv);                              // adds it on the page 
+            else {
+                if (!/[^a-zA-Z]/.test(userGuess)) {                             // bad guess, add to wrong letter guess list, update losses
+                    lives = lives - 1;
+                    badGuess.push(userGuess + "  ");
+                    document.querySelector("#score").innerHTML = "Guessed So Far: " + badGuess.join("");
+                    var newLivesDiv = document.createElement("div");             // creating a new element to display lives within score div
+                    newLivesDiv.innerHTML = "Lives: " + lives;
+                    score.appendChild(newLivesDiv);                              // adds it on the page 
+                }
             }
-
 
 
 
